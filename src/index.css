@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+
+@theme {
+    --font-manrope: 'Manrope', sans-serif;
+
+    --color-deepOrange: rgb(216, 125, 74);
+    --color-lightOrange: rgb(251, 175, 133);
+    --color-semiBlack: rgb(16, 16, 16);
+    --color-brandBlack: rgb(0, 0, 0);
+    --color-deepGray: rgb(241, 241, 241);
+    --color-lightGray: rgb(250, 250, 250);
+    --color-brandWhite: rgb(255, 255, 255);
+
+}
+
+@utility outer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@utility inner-container {
+    width: 80%;
+    margin: 0 auto;
+}
