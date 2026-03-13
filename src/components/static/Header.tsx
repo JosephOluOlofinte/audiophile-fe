@@ -5,7 +5,7 @@ import { PiShoppingCartLight } from 'react-icons/pi';
 
 const Header = () => {
   return (
-    <header className="bg-brandBlack w-full h-[80px]">
+    <header className="bg-[#131313] w-full h-[80px]">
       <div className="inner-container h-full flex items-center justify-between">
         <img src={logo} alt="" className="h-[25px]" />
 
