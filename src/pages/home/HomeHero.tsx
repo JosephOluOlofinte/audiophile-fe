@@ -5,7 +5,7 @@ import Button from '../../components/block/Button';
 const HomeHero = () => {
   return (
     <main className="h-[calc(100vh-80px)] max-h-[750px] bg-[#131313]">
-      <div className="inner-container h-full border-t border-[#f7f7f7] flex items-center justify-between">
+      <div className="inner-container h-full border-t border-[#f7f7f7]/20 flex items-center justify-between">
         <div className='grid h-fit gap-[40px]'>
           <div className='grid h-fit gap-[24px]'>
             <p className="font-manrope text-brandWhite/50 text-sm tracking-[10px]">
